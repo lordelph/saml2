@@ -23,7 +23,7 @@ class HTTPArtifact extends Binding
 {
     /**
      * @psalm-suppress UndefinedDocblockClass
-     * @psalm-var \SimpleSAML\Configuration
+     * @var \SimpleSAML\Configuration
      */
     private $spMetadata;
 
