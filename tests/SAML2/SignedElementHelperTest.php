@@ -1,5 +1,7 @@
 <?php
 
+use \RobRichards\XMLSecLibs\XMLSecurityDSig;
+
 require_once 'SignedElementHelperMock.php';
 require_once 'CertificatesMock.php';
 

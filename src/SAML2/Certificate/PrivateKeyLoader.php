@@ -1,5 +1,7 @@
 <?php
 
+use \RobRichards\XMLSecLibs\XMLSecurityKey;
+
 class SAML2_Certificate_PrivateKeyLoader
 {
     /**

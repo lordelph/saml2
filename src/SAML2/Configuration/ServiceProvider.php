@@ -1,5 +1,7 @@
 <?php
 
+use \RobRichards\XMLSecLibs\XMLSecurityKey;
+
 /**
  * Basic Configuration Wrapper
  */

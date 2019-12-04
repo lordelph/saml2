@@ -1,5 +1,7 @@
 <?php
 
+use \RobRichards\XMLSecLibs\XMLSecurityKey;
+
 /**
  * Interface to a SAML 2 element which may be signed.
  *

@@ -1,4 +1,5 @@
 <?php
+use \RobRichards\XMLSecLibs\XMLSecurityKey;
 
 /**
  * Implementation of the SAML 2.0 SOAP binding.

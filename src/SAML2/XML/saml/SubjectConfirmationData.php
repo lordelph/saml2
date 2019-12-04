@@ -1,5 +1,7 @@
 <?php
 
+use \RobRichards\XMLSecLibs\XMLSecurityDSig;
+
 /**
  * Class representing SAML 2 SubjectConfirmationData element.
  *

@@ -1,5 +1,7 @@
 <?php
 
+use \RobRichards\XMLSecLibs\XMLSecurityKey;
+
 /**
  * Class which implements the HTTP-Artifact binding.
  *

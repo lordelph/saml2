@@ -1,5 +1,9 @@
 <?php
 
+use \RobRichards\XMLSecLibs\XMLSecurityDSig;
+use \RobRichards\XMLSecLibs\XMLSecEnc;
+use \RobRichards\XMLSecLibs\XMLSecurityKey;
+
 /**
  * Helper functions for the SAML2 library.
  *

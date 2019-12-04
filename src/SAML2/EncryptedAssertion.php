@@ -1,5 +1,8 @@
 <?php
 
+use \RobRichards\XMLSecLibs\XMLSecurityKey;
+use \RobRichards\XMLSecLibs\XMLSecEnc;
+
 /**
  * Class handling encrypted assertions.
  *

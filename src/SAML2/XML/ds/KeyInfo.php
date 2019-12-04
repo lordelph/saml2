@@ -1,5 +1,7 @@
 <?php
 
+use \RobRichards\XMLSecLibs\XMLSecurityDSig;
+
 /**
  * Class representing a ds:KeyInfo element.
  *

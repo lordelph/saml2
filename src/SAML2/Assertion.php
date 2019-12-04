@@ -1,5 +1,8 @@
 <?php
 
+use \RobRichards\XMLSecLibs\XMLSecurityKey;
+use \RobRichards\XMLSecLibs\XMLSecEnc;
+
 /**
  * Class representing a SAML 2 assertion.
  *
@@ -1201,7 +1204,7 @@ class SAML2_Assertion implements SAML2_SignedElement
      *
      * @param XMLSecurityKey|NULL $signatureKey
      */
-    public function setSignatureKey(XMLsecurityKey $signatureKey = NULL)
+    public function setSignatureKey(\RobRichards\XMLSecLibs\XMLSecurityKey $signatureKey = NULL)
     {
         $this->signatureKey = $signatureKey;
     }

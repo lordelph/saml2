@@ -1,5 +1,10 @@
 <?php
 
+use \RobRichards\XMLSecLibs\XMLSecurityKey;
+use \RobRichards\XMLSecLibs\XMLSecEnc;
+
+
+
 /**
  * Class for SAML 2 authentication request messages.
  *

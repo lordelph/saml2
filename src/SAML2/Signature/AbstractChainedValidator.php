@@ -1,5 +1,7 @@
 <?php
 
+use \RobRichards\XMLSecLibs\XMLSecurityKey;
+
 abstract class SAML2_Signature_AbstractChainedValidator implements SAML2_Signature_ChainedValidator
 {
     /**
